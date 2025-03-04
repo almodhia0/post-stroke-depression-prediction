@@ -1,0 +1,6 @@
+| Model              | Accuracy | Precision | Recall | F1-Score | AUC-ROC |
+|----------------------|----------|-----------|--------|----------|---------|
+| Random Forest        | 0.73     | 0.71      | 0.77   | 0.74     | 0.81    |
+| Decision Tree        | 0.70     | 0.69      | 0.73   | 0.71     | 0.73    |
+| Gradient Boosting    | 0.65     | 0.66      | 0.64   | 0.65     | 0.72    |
+| Logistic Regression  | 0.65     | 0.65      | 0.62   | 0.64     | 0.70    |
