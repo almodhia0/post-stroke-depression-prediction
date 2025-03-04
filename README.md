@@ -3,10 +3,6 @@
 
 This repository contains the code and supplementary materials associated with the study "post-stroke-depression-prediction", which develops a machine learning model to predict the probability of reported depression among individuals with a history of stroke, using data from the Behavioral Risk Factor Surveillance System (BRFSS).
 
-**Response to Reviewer Comments:**
-
-This repository is created in direct response to reviewer feedback during the peer-review process.  Specifically, we address the concern that the model and code were not publicly available. We appreciate this feedback and have made the core components of our analysis accessible here.
-
 **Project Overview:**
 
 This project utilizes the 2023 BRFSS dataset (released September 2024) to build a predictive model for reported depression in individuals who have experienced a stroke. The model uses various demographic and health-related factors (listed below) to estimate the probability of an individual reporting a diagnosis of depression.  It's important to note that the model predicts the probability of *reporting* a diagnosis, not the presence of active depression.  This aligns with the "ever diagnosed" questions used in the BRFSS.
@@ -45,7 +41,6 @@ The model utilizes the following variables from the BRFSS:
 
 *   `code/preprocessing.py`: This script contains the Python code used for data cleaning, imputation of missing values (using logistic regression), feature selection, and feature engineering, as described in the Methods section of the paper.
 *   `code/model_training.py`: This script implements the model selection, training, evaluation, and validation procedures.  It includes the code for training the four machine learning models (Random Forest, Decision Tree, Gradient Boosting, and Logistic Regression), performing hyperparameter optimization using GridSearchCV, and evaluating performance using metrics like accuracy, precision, recall, F1-score, and AUC-ROC.  SMOTE is used to address class imbalance.
-* `code/model_simplified.py` (OPTIONAL): This *optional* script provides a simplified, readily deployable version of the best-performing model. This could be a pickled model object or a function that takes input features and returns a probability. This is *highly recommended* for making the model truly accessible.
 * `code/requirements.txt`: This file lists the Python packages required to run the code.
 
 **How to Use:**
