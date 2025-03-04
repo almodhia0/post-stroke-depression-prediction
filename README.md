@@ -1,7 +1,7 @@
 # post-stroke-depression-prediction
 # Prediction of Depression in Stroke Survivors using BRFSS Data
 
-This repository contains the code and supplementary materials associated with the study "[Your Study Title Here]", which develops a machine learning model to predict the probability of reported depression among individuals with a history of stroke, using data from the Behavioral Risk Factor Surveillance System (BRFSS).
+This repository contains the code and supplementary materials associated with the study "post-stroke-depression-prediction", which develops a machine learning model to predict the probability of reported depression among individuals with a history of stroke, using data from the Behavioral Risk Factor Surveillance System (BRFSS).
 
 **Response to Reviewer Comments:**
 
@@ -15,7 +15,7 @@ This project utilizes the 2023 BRFSS dataset (released September 2024) to build 
 
 The BRFSS dataset is publicly available and maintained by the U.S. Centers for Disease Control and Prevention (CDC).  It is released under the CC0 1.0 Universal Public Domain Dedication license.  You can access the data and documentation here:
 
-[Insert Link to the 2023 BRFSS Data Page on the CDC Website]
+https://www.cdc.gov/brfss/annual_data/annual_2023.html
 
 The file `data/BRFSS_data_description.txt` provides further details on accessing and understanding the relevant variables within the BRFSS dataset.  **We do not include the full BRFSS dataset in this repository due to its size and the CDC's distribution policies.**
 
@@ -60,19 +60,19 @@ The model utilizes the following variables from the BRFSS:
     *   `model_training.py` (to train and evaluate the models)
     *   `model_simplified.py` (OPTIONAL - to use the simplified model)
 
-**Results (OPTIONAL):**
+**Results:**
 The 'results' folder include the results of feature importance and model performance, for easy analysis.
 
 **Limitations:**
 
-As discussed in the paper and in response to reviewer comments, the model predicts the probability of *reporting* a depression diagnosis, not necessarily the presence of *current* or *post-stroke* depression specifically.  The "ever diagnosed" nature of the BRFSS questions limits our ability to determine the precise temporal relationship between stroke and depression onset.
+The model predicts the probability of *reporting* a depression diagnosis, not necessarily the presence of *current* or *post-stroke* depression specifically.  The "ever diagnosed" nature of the BRFSS questions limits our ability to determine the precise temporal relationship between stroke and depression onset.
 
 **Citation:**
 
 If you use this code or the findings of our study, please cite:
 
-[Your Full Citation Here]
+Link will be provided soon....
 
 **Contact:**
 
-[Your Name and Email Address]
+dr_alqahtani@hotmail.com
