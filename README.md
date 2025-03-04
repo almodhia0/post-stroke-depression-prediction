@@ -70,4 +70,4 @@ Link will be provided soon....
 
 **Contact:**
 
-dr_alqahtani@hotmail.com
+samqahtani@taibahu.edu.sa
