@@ -1,0 +1,7 @@
+The data used in this project comes from the 2023 Behavioral Risk Factor Surveillance System (BRFSS).
+
+You can download the data and find detailed documentation here:
+
+https://www.cdc.gov/brfss/annual_data/annual_2023.html
+
+The relevant variables used in this project are listed in the README.md file.
